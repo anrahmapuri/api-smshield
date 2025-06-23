@@ -10,7 +10,7 @@ Sistem ini bekerja secara otomatis di latar belakang, memonitor SMS masuk, lalu 
 
 Sistem ini terdiri dari dua komponen utama:
 - **Aplikasi Android**: Mendeteksi SMS masuk dan mengirim pesan SMS ke server.
-- **API Backend Flask**: Mengklasifikasikan isi SMS menggunakan model machine learning.
+- **API Backend Flask**: Mengklasifikasikan isi SMS dengan mengimplementasikan deep learning.
 
 ---
 
