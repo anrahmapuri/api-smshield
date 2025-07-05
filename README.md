@@ -14,17 +14,6 @@ Sistem ini terdiri dari dua komponen utama:
 
 ---
 
-## 🛠️ Tech Stack & Tools Used
-
-- **Android App**: Kotlin, Jetpack Compose, BroadcastReceiver, NotificationManager  
-- **Backend**: Python 3, Flask, RESTful API 
-- **Model**: BiLSTM
-- **Server**: Linux-based ITS server (akses via SSH + VPN)  
-- **Integrasi**: Retrofit2 (Android), REST API  
-- **Deployment**: Virtualenv + `flask run` + `nohup`
-
----
-
 ## 🌐 Setup Guide: SMShield Backend on ITS Server
 
 Untuk menjalankan API Flask di server ITS, ikuti langkah-langkah berikut:
