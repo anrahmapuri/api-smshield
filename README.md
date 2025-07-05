@@ -4,13 +4,13 @@
 
 ## 📖 Overview
 
-**SMShield** adalah sistem deteksi smishing (SMS phishing) yang dibangun untuk menjawab kebutuhan akan perlindungan dari pesan berbahaya yang sering kali menipu pengguna melalui teknik social engineering dalam SMS.
+**SMShield** adalah sistem deteksi _smishing_ _(SMS phishing)_ yang dibangun untuk menjawab kebutuhan akan perlindungan dari pesan berbahaya yang sering kali menipu pengguna melalui teknik _social engineering_ dalam SMS.
 
-Sistem ini bekerja secara otomatis di latar belakang, memonitor SMS masuk, lalu mengirim isi pesan ke API backend untuk diklasifikasikan dengan model deep learning. Hasil klasifikasi kemudian dikirim kembali dan ditampilkan ke pengguna dalam bentuk notifikasi.
+Sistem ini bekerja secara otomatis di latar belakang, memonitor SMS masuk, lalu mengirim isi pesan ke API _backend_ untuk diklasifikasikan dengan model _deep learning_. Hasil klasifikasi kemudian dikirim kembali dan ditampilkan ke pengguna dalam bentuk notifikasi.
 
 Sistem ini terdiri dari dua komponen utama:
 - **Aplikasi Android**: Mendeteksi SMS masuk dan mengirim pesan SMS ke server.
-- **API Backend Flask**: Mengklasifikasikan isi SMS dengan mengimplementasikan deep learning.
+- **API Backend Flask**: Mengklasifikasikan isi SMS dengan mengimplementasikan Model _Deep Learning_ BiLSTM.
 
 ---
 
